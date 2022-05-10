@@ -1,5 +1,4 @@
 # Phylonco analysis
-
 This repository contains data and analysis scripts that accompany the Beast Phylonco paper below.
 
 [Paper](https://doi.org/10.1101/2021.03.17.435906): Chen et al. "Accounting for errors in data improves timing in single-cell cancer evolution." (2022)
@@ -49,7 +48,6 @@ Real datasets are available in FASTA format (with GT16 encoding) in `E15/data` a
 Beast analysis XML files are in `E15/data/*.xml` and `L86/data/*.xml`
 
 ## Simulating new datasets
-
 **Binary datasets:**
 
 Go to the `sim1/scripts` or `sim2/scripts` sub-directory
@@ -104,3 +102,17 @@ Summary tree plots: run `plot_tree_*.py` from the `scripts` sub-directory.
 
 Extra supplementary plots: run `python3 plot_*.py` from the `scripts` sub-directory.
 
+## Citations
+**Software and models:**
+
+* BEAST v2.5: [Bouckaert at al. (2019)](https://doi.org/10.1371/journal.pcbi.1006650)
+
+* BEAST2 Error models: [Chen et al. (2022)](https://doi.org/10.1101/2021.03.17.435906)
+
+* GT16 model: [Kozlov et al. (2022)](https://doi.org/10.1186/s13059-021-02583-w) 
+
+**Datasets:**
+
+* E15 dataset: [Kozlov et al. (2022)](https://doi.org/10.1186/s13059-021-02583-w) and [Evrony et al. (2015)](https://doi.org/10.1016/j.neuron.2014.12.028)
+
+* L86 dataset: [Kozlov et al. (2022)](https://doi.org/10.1186/s13059-021-02583-w) and [Leung et al. (2017)](http://www.genome.org/cgi/doi/10.1101/gr.209973.116.)
