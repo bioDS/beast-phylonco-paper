@@ -8,7 +8,7 @@ This repository contains data and analysis scripts that accompany the Beast Phyl
 ## Software requirements
 Java 8 and [BEAST v2.5](https://github.com/CompEvol/beast2) 
 
-We provide a bundled jar version of BEAST2.5 with Phylonco in `beast-phylonco.jar`, also see [analysis section](https://github.com/bioDS/beast-phylonco-paper/edit/main/README.md#running-the-analysis).
+We provide a bundled jar version of BEAST2.5 with Phylonco in `beast-phylonco.jar`, see [analysis section](https://github.com/bioDS/beast-phylonco-paper#running-the-analysis).
 
 Python 3 and packages: 
 ```
