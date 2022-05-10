@@ -6,7 +6,7 @@ This repository contains data and analysis scripts for Beast Phylonco https://ww
 
 
 ## Software requirements
-Java 8 and BEAST v2.5 or greater 
+Java 8 and [BEAST v2.5](https://github.com/CompEvol/beast2) or greater 
 
 Python 3 and packages: 
 ```
@@ -28,7 +28,7 @@ treeio
 TreeSimGM
 ```
 
-(Optional) Simulating new GT16 datasets additionally requires Java 16, LPhy and LPhyBeast. 
+(Optional) Simulating new GT16 datasets additionally requires Java 16, [LPhy](https://github.com/LinguaPhylo/linguaPhylo) and [LPhyBeast](https://github.com/LinguaPhylo/LPhyBeast). 
 
 ## Datasets
 **Simulated datasets:**
