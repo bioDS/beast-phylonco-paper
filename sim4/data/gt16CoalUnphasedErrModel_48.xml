@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+<data
+id="E"
+spec="Alignment"
+dataType="nucleotideDiploid16">
+
+<sequence id="Sequence" spec="Sequence" taxon="4" totalcount="16" value="SM00KS0MK0MYa5Rf00M0SS0aRY5SWaSYKaaMfKSKaY5Yf5KaYRRaafW5aKaYfWK00a5RKa0aWWf0YMf5KffMaafMSK0KfYaffffYfMfa0f5WMf0MfM0ffW0fKRfaW05ffff5MWSYffKWM5YWM505aff5RfWYM5M0fffW0SafMKf05ff55f5W50aKRR5Kafa5M0M0WMaM"/>
+
+<sequence id="Sequence1" spec="Sequence" taxon="12" totalcount="16" value="SaWMKaMMa00YKS0f50MWSSMK0Y0SWSa0aaa0KKSYa5fff5KafaaRRf05fa0YfWW5R5fRKa55WWfW5MfaffWM0KKM5K0Kff5fff00fMYaRY5RMfR5WM0ffWWfKafff0050fKM0W5fffKfMSfWMMa5RWKf0fffMR0Rffff0Sa0MKW05fWSffM0SMaf0R5aaKa5M0M0fMKM"/>
+
+<sequence id="Sequence2" spec="Sequence" taxon="9" totalcount="16" value="SMWMKaM5KMMYK5RfM0M05SMaR5MS0aSMaaRMaaafM55ff5KaY0RRRfW55KR0ffK5Ra5RKaM5fffWf5fSKfMM0SfMa0aafYSKfff5f5fKaYa05f0Mf05ffRWfK0WKW05fafaf0WSfffKf05fWMMS5af5YaffKMR5af0fWWSaf5a0aMfWS5fMRaMaKR0YKafaY05M0W555"/>
+
+<sequence id="Sequence3" spec="Sequence" taxon="2" totalcount="16" value="S0fMKS50aMM5K5af00Mfaa0Kaf0aWa5MaaaMK5SKRYWYW5KafRR0Rff0YKRYY0KMaMYRaaY5W5ffY5faaff0RaKM5K0505SfWfKSf0aaRYSWMfRMW5SfffWfaR0ff05f0fa5M0afafKW55fWMMa5RWf5RfffMa5RfWfWWfafMaWa0ffSYfYRSMRKRaYKaKa5MM0SW0aM"/>
+
+<sequence id="Sequence4" spec="Sequence" taxon="14" totalcount="16" value="a0WMaa0MaM5Yf50f5050Sa0RR50S0a5Maaa0fa5fRYffW5faYaRaafW5Yf0ffffMaYY0faM50WfWf0faaffM0af05f5af5aKWfKYf5Yf0fK00fR5WW5ffWWfK00K005fRff0Mf5fffff05K00MS5R0KfRfWf0RMRfWfWfaaWMaWRMfWS5f0aa5aYRafKaKa5RM5S00K5"/>
+
+<sequence id="Sequence5" spec="Sequence" taxon="5" totalcount="16" value="55f5Ka00Kf0Ya5RfM05fS55a0YMSWaaMaa0aKfaaRY5Yf5a550RRRfW55K05KWaf05f0KaM5W0fffMf5KfW50KfMSfMffYaa0fR5fM5KaYa0Wf05W50ff0WfK0fK005fafKMM0aYffffM5ffR55500aMRf0fMRaRfff0W5aWMaWa0f0aYf5R55aaKafaa5aYSMYSf5f5"/>
+
+<sequence id="Sequence6" spec="Sequence" taxon="10" totalcount="16" value="S0WMaaM0KM0Ya5Rf500WaSMKR5050aaYaaRMKf5K0fYY05fa50aRafW5ffSf0fa5RaYRa00YWffWfMfSKfWM0SaMSa5KfYSK0fKafMfKaYS0MfaMWMMfWf0ffRWYf05fRffMM05Yfffa55fW50S5RWfYafWfMRM0f0fffSa0MaWWMf0aYf0R550aaRYKaaa5MM0505f5"/>
+
+<sequence id="Sequence7" spec="Sequence" taxon="0" totalcount="16" value="5M0Mfa55KM5YK5afM0ffa55KRYRSfaS5aaR0KKafaYYY05aaY00R0fM5fKR5WWfMaSYRKaM50Wf0Y5fSaffM0KKMaKMafYaa0ff5fMYKRYKfMf0Mf0Mff0WfK0WKf05f0f0M00affYKWM5fWM555aWaYRf0f5KMa5WfWf5afMKfR5fW55fMaS0aa0R5aKKa5MM5aWSK5"/>
+
+<sequence id="Sequence8" spec="Sequence" taxon="3" totalcount="16" value="a005aa0MaMMYa5afMMMWRffKaYMSfaaM5aWMffSK0YYf55aaSRRRRfMMYKRff0f5R5fRKaM5MfffYMf5afW0RKKMSa0ffYSffff5f5YaRfSW0f05WY0ff0WfK0WK00MfafKM00SfffaRM5f05MS5aWK5RfWWMR0Rf0fW0aaWMa0SSfWafWM0aMaaR0Kaaaa5MMMaWMK5"/>
+
+<sequence id="Sequence9" spec="Sequence" taxon="8" totalcount="16" value="S0WMaaMMa5MYa50f000WSS0aa50SWaSMaaR5ff5aRK55f5faYRRR0fW5YfRYfWaMRSYRKS550WffYMfSKfWM0KaMSa0KfYSKWffYfMYfR5SWMKR00M5ffWWKKaWfW0Mf0fWMM0SYffWf05fW0MS5RWafRf0f00MRf0ffW5afMaW05fWSYf005MaKW0Yaaaa5MM0SWMKM"/>
+
+<sequence id="Sequence10" spec="Sequence" taxon="13" totalcount="16" value="550SKa0MfMM5KfRf5MMfaa0KfYMS0S5MaaRMfKaKaSSYW5Kafa0RRf05YYaYfWf0RSY05a050WfWfMfSff0MRKKMafMKKYSaKff5fMYK0YaW5aRM0SMff00YfR0f00MfRfaaMWSffffW55ffMMa5RWfM0fWY5R5RfKWf0SaYMfWRMfWS5f50a0aK0R5aaaa55MMaf0f5"/>
+
+<sequence id="Sequence11" spec="Sequence" taxon="7" totalcount="16" value="a5W5Ka55aMMYK5afM550555KRf5Y0aSMaa5MKfSKaYf5f5aa5aRR0fW55aaYfWf50S5aaR55fffWfMfaKfW0SKK05K0afYSKfffYfS5aS5SYMfR0f5MffW0faaWaf00fRfK5MfSSffafM5f0M055RWKYRfffMRMRfWfWaSaW0K000fWa5f5a5MaK0R5faaa550MSW0K0"/>
+
+<sequence id="Sequence12" spec="Sequence" taxon="15" totalcount="16" value="SMf5faW0K5M5K50f50M5SSMKMf5afaS5aaa5aaaKRYYYW5faYR0aWffSYfaYf0aM0YYafaM5WffWYMfSKfWM0Ka0fKMSWYafff55fMYKRf5f5fRMW5Mff0KfKRWKf0MWRfK00WSYffK0M5f050a5RWfY0fWfMRMRfWfWWSSWMa00Mf0affMRSMaKRaYKaKa5055Sf0fY"/>
+
+<sequence id="Sequence13" spec="Sequence" taxon="6" totalcount="16" value="SWWMfa0aW00YKYRW5M5W5S0a05MS0SSMaaR0K5SKaffYW5KaYRaaRff55a0YfWf5aSY0Ka550WffY0f5RfWM0ff5SK5SfY5KWWfYfMYKa5SW5fR0Wa5fffWffR0ff0MYRfKMMW5YfYKfM5fWM0S55WfY0fffMa5RfW50fSaW5KWR0fYaff50S0aaaSfKaKa50f55f5Y5"/>
+
+<sequence id="Sequence14" spec="Sequence" taxon="11" totalcount="16" value="S5fMKaMMKMMYf50fM0YW5aMKRYMaYaS0aaa0KfSf0Y5YW5aS5RaaafW5YKR5fWK5aSfRfa55f0fWY0Y5KfWaaKf5aKMKf55f0ff5Y0ffRYSf5fR0f05ffWffaaWf00MfaffM0W55Kfff05fW0fa5RWK5RfWf0RM0f0f0WSaWMKWRMf05YfMa50aRRa5aaaa50MMaRMK5"/>
+
+<sequence id="Sequence15" spec="Sequence" taxon="1" totalcount="16" value="aM05KaMMaMM5K5R0MMMWSSMfRYM0faaMaaaMfaaK0YYfW5faYR0RRf05fK0YffaMRa5RKaM5WfffYMfSKfW00KaMSa0KfYa5Yff5f0YaR50WMf0MWMMfffKfKR0Kf0MfRKfM005Yffff05f0MMafR0KYRf0f0a5RfWf0WSafMffaMKfSff0RSMSKRRfKaKa55M5af5a5"/>
+
+</data>
+
+
+
+
+
+
+
+
+
+
+<run id="MCMC" spec="MCMC" chainLength="3000000" preBurnin="400">
+
+<state id="State" spec="State">
+
+<parameter id="pi" spec="parameter.RealParameter" dimension="16" keys="0 1 2 3 4 5 6 7 8 9 a b c d e f" lower="0.0" name="stateNode" upper="1.0">0.021480018474905892 0.12920228555229196 0.06941326710216551 0.10804502059800578 0.051371511637286565 0.04827016304625553 0.04925565753647423 0.08640121162041277 0.027365241874144783 0.045225170208345086 0.04332338578256304 0.07695002076257289 0.04242373315351961 0.022279261729205035 0.05769816233340613 0.12129588858844505</parameter>
+
+<parameter id="rates" spec="parameter.RealParameter" dimension="6" keys="AC AG AT CG CT GT" lower="0.0" name="stateNode" upper="1.0">0.29227294128272535 0.12253351623455765 0.09512157271854996 0.09639624362800257 0.33607305338772653 0.057602672748437916</parameter>
+
+<parameter id="Theta" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.008244744114450135</parameter>
+
+<stateNode id="psi" spec="beast.util.TreeParser" IsLabelledNewick="true" newick="(((((4:0.0010656215474338796,(12:7.750472465689858E-4,9:7.750472465689858E-4):2.905743008648938E-4):6.563723493119317E-4,((2:2.3375363675785435E-4,14:2.3375363675785435E-4):2.2678694763877337E-4,(5:3.661313167972485E-4,10:3.661313167972485E-4):9.440926759937923E-5):0.0012614533123491835):0.0011162702143234528,((0:2.3568847124087592E-4,3:2.3568847124087592E-4):0.00233287317177683,((8:2.0340324100754804E-4,13:2.0340324100754804E-4):1.0989085044004265E-4,7:3.132940914475907E-4):0.0022552675515701147):2.697024680515586E-4):2.337440208129084E-4,((15:5.648836285900078E-4,6:5.648836285900078E-4):9.893590708320537E-4,11:0.0015542426994220615):0.001517765432460111):0.0022922366316549853,1:0.005364244763537158):0.0;">
+
+<taxonset id="TaxonSet" spec="TaxonSet">
+
+<taxon id="0" spec="Taxon"/>
+
+<taxon id="1" spec="Taxon"/>
+
+<taxon id="2" spec="Taxon"/>
+
+<taxon id="3" spec="Taxon"/>
+
+<taxon id="4" spec="Taxon"/>
+
+<taxon id="5" spec="Taxon"/>
+
+<taxon id="6" spec="Taxon"/>
+
+<taxon id="7" spec="Taxon"/>
+
+<taxon id="8" spec="Taxon"/>
+
+<taxon id="9" spec="Taxon"/>
+
+<taxon id="10" spec="Taxon"/>
+
+<taxon id="11" spec="Taxon"/>
+
+<taxon id="12" spec="Taxon"/>
+
+<taxon id="13" spec="Taxon"/>
+
+<taxon id="14" spec="Taxon"/>
+
+<taxon id="15" spec="Taxon"/>
+
+</taxonset>
+
+</stateNode>
+
+<parameter id="delta" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.4660401322376221</parameter>
+
+<parameter id="epsilon" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.11975918081445537</parameter>
+
+</state>
+
+<distribution id="posterior" spec="util.CompoundDistribution">
+
+<distribution id="prior" spec="util.CompoundDistribution">
+
+<distribution id="pi.prior" spec="beast.math.distributions.Prior" x="@pi">
+
+<distr id="Dirichlet" spec="beast.math.distributions.Dirichlet">
+
+<parameter id="RealParameter" spec="parameter.RealParameter" dimension="16" estimate="false" name="alpha">3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0</parameter>
+
+</distr>
+
+</distribution>
+
+<distribution id="epsilon.prior" spec="beast.math.distributions.Prior" x="@epsilon">
+
+<distr id="Beta" spec="beast.math.distributions.Beta">
+
+<parameter id="RealParameter1" spec="parameter.RealParameter" name="alpha">2.0</parameter>
+
+<parameter id="RealParameter2" spec="parameter.RealParameter" name="beta">18.0</parameter>
+
+</distr>
+
+</distribution>
+
+<distribution id="rates.prior" spec="beast.math.distributions.Prior" x="@rates">
+
+<distr id="Dirichlet1" spec="beast.math.distributions.Dirichlet">
+
+<parameter id="RealParameter3" spec="parameter.RealParameter" dimension="6" estimate="false" name="alpha">1.0 2.0 1.0 1.0 2.0 1.0</parameter>
+
+</distr>
+
+</distribution>
+
+<distribution id="Theta.prior" spec="beast.math.distributions.Prior" x="@Theta">
+
+<distr id="LogNormalDistributionModel" spec="beast.math.distributions.LogNormalDistributionModel">
+
+<parameter id="RealParameter4" spec="parameter.RealParameter" name="M">-2.0</parameter>
+
+<parameter id="RealParameter5" spec="parameter.RealParameter" name="S">1.0</parameter>
+
+</distr>
+
+</distribution>
+
+<distribution id="Coalescent" spec="Coalescent">
+
+<populationModel id="ConstantPopulation" spec="ConstantPopulation" popSize="@Theta"/>
+
+<treeIntervals id="TreeIntervals" spec="TreeIntervals" tree="@psi"/>
+
+</distribution>
+
+<distribution id="delta.prior" spec="beast.math.distributions.Prior" x="@delta">
+
+<distr id="Beta1" spec="beast.math.distributions.Beta">
+
+<parameter id="RealParameter6" spec="parameter.RealParameter" name="alpha">1.5</parameter>
+
+<parameter id="RealParameter7" spec="parameter.RealParameter" name="beta">4.5</parameter>
+
+</distr>
+
+</distribution>
+
+</distribution>
+
+<distribution id="likelihood" spec="util.CompoundDistribution">
+
+<distribution id="E.treeLikelihood" spec="TreeLikelihoodWithErrorSlow" tree="@psi" useAmbiguities="true" useTipLikelihoods="true">
+
+<errorModel id="GT16ErrorModel" spec="beast.evolution.errormodel.GT16ErrorModel" delta="@delta" epsilon="@epsilon">
+
+<datatype id="NucleotideDiploid16" spec="beast.evolution.datatype.NucleotideDiploid16"/>
+
+</errorModel>
+
+<data idref="E"/>
+
+<siteModel id="SiteModel" spec="SiteModel">
+
+<substModel id="GT16" spec="GT16" nucRates="@rates">
+
+<frequencies id="Frequencies" spec="Frequencies" frequencies="@pi"/>
+
+</substModel>
+
+</siteModel>
+
+<branchRateModel id="StrictClockModel" spec="beast.evolution.branchratemodel.StrictClockModel">
+
+<parameter id="RealParameter8" spec="parameter.RealParameter" name="clock.rate">1.0</parameter>
+
+</branchRateModel>
+
+</distribution>
+
+</distribution>
+
+</distribution>
+
+<operator id="Theta.scale" spec="ScaleOperator" parameter="@Theta" weight="1.0"/>
+
+<operator id="delta.scale" spec="ScaleOperator" parameter="@delta" weight="1.0"/>
+
+<operator id="epsilon.scale" spec="ScaleOperator" parameter="@epsilon" weight="1.0"/>
+
+<operator id="pi.deltaExchange" spec="DeltaExchangeOperator" delta="0.0625" autoOptimize="false" weight="6.656775051475125">
+
+<parameter idref="pi"/>
+
+</operator>
+
+<operator id="psi.narrowExchange" spec="Exchange" tree="@psi" weight="6.656775051475125"/>
+
+<operator id="psi.rootAgeScale" spec="ScaleOperator" rootOnly="true" tree="@psi" upper="0.975" weight="1.0"/>
+
+<operator id="psi.scale" spec="ScaleOperator" tree="@psi" upper="0.975" weight="6.656775051475125"/>
+
+<operator id="psi.subtreeSlide" spec="SubtreeSlide" size="5.364244763537159E-4" tree="@psi" weight="6.656775051475125"/>
+
+<operator id="psi.uniform" spec="Uniform" tree="@psi" weight="6.656775051475125"/>
+
+<operator id="psi.wideExchange" spec="Exchange" isNarrow="false" tree="@psi" weight="6.656775051475125"/>
+
+<operator id="psi.wilsonBalding" spec="WilsonBalding" tree="@psi" weight="6.656775051475125"/>
+
+<operator id="rates.deltaExchange" spec="DeltaExchangeOperator" delta="0.16666666666666666" autoOptimize="false" weight="3.0851693136000478">
+
+<parameter idref="rates"/>
+
+</operator>
+
+<logger id="Logger" spec="Logger" logEvery="150000">
+
+<log idref="posterior"/>
+
+<log idref="likelihood"/>
+
+<log idref="prior"/>
+
+<log idref="pi"/>
+
+<log idref="rates"/>
+
+<log idref="Theta"/>
+
+<log idref="delta"/>
+
+<log idref="epsilon"/>
+
+</logger>
+
+<logger id="Logger1" spec="Logger" fileName="gt16CoalUnphasedErrModel_48.log" logEvery="1500">
+
+<log idref="posterior"/>
+
+<log idref="likelihood"/>
+
+<log idref="prior"/>
+
+<log idref="pi"/>
+
+<log idref="rates"/>
+
+<log idref="Theta"/>
+
+<log idref="delta"/>
+
+<log idref="epsilon"/>
+
+<log id="TreeStatLogger" spec="beast.evolution.tree.TreeStatLogger" logLength="false" tree="@psi"/>
+
+<log idref="E.treeLikelihood"/>
+
+</logger>
+
+<logger id="psi.treeLogger" spec="Logger" fileName="gt16CoalUnphasedErrModel_48.trees" logEvery="1500" mode="tree">
+
+<log idref="psi"/>
+
+</logger>
+
+</run>
+
+</beast>
