@@ -39,7 +39,7 @@ Simulated datasets and parameters are in the directories `sim1/data` to `sim7/da
 
 True simulation parameters are stored in the files `*_true.csv` or `*_true.log` and true trees are stored in the files `*._true.trees`. 
 
-Beast analysis XML files are in sub-directories `sim1/beast` to `sim7/beast` for each dataset.
+Beast analysis XML files are in sub-directories `sim1/data/*.xml` to `sim7/data/*.xml` for each dataset.
 
 **Real datasets:**
 
@@ -94,6 +94,14 @@ Beast tree stats: trees can be summarized using `TreeAnnotator` that is bundled 
 Beast tree viewer: trees can be viewed using Figtree or any compatible beast tree visualization software.
 
 ## Visualizing output 
+**Beast logs:**
+
+Beast logs are available at Google Drive https://drive.google.com/drive/folders/1vQ6xvs3qq4vJtiI7aDjqBP8xPF__VXAH?usp=sharing
+
+Unzip the downloaded beast logs archive `.zip` inside the dataset directory (e.g., `sim1`, `E15` or `L86`)
+
+**Generating figures:**
+
 Coverage plots: run `python3 plot_coverage.py` from the `scripts` sub-directory.
 
 Tree statistics plots: run `python3 plot_tree_stats.py` from the `scripts` sub-directory.
