@@ -96,7 +96,9 @@ Beast tree viewer: trees can be viewed using Figtree or any compatible beast tre
 ## Visualizing output 
 **Beast logs:**
 
-Beast logs are available at Google Drive https://drive.google.com/drive/folders/1vQ6xvs3qq4vJtiI7aDjqBP8xPF__VXAH?usp=sharing
+Beast logs for `sim1` to `sim6` are available in the `sim1/beast` to `sim6/beast` sub-directories on github
+
+Beast logs for `sim7`, `E15` and `L86` are available on Google Drive https://drive.google.com/drive/folders/1vQ6xvs3qq4vJtiI7aDjqBP8xPF__VXAH?usp=sharing
 
 Unzip the downloaded beast logs archive `.zip` inside the dataset directory (e.g., `E15` or `L86`)
 
