@@ -85,7 +85,7 @@ Example command:
 
 **Post-processing:**
 
-Beast log stats: from R run `scripts/mcmc_stats.r` (edit "mcmc_path" to point to your beast logs directory).
+Beast log stats: from R run `mcmc_stats.r` (edit "mcmc_path" to point to your beast logs directory).
 
 Beast log viewer: logs can be viewed using Tracer.
 
