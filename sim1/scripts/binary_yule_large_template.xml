@@ -1,0 +1,255 @@
+<beast version='2.0'
+       namespace='
+            substitutionmodel:
+            likelihood:
+            beast.evolution.alignment:
+            beast.core:
+            beast.core.util:
+            beast.evolution.datatype:
+            beast.evolution.nuc:
+            beast.evolution.operators:
+            beast.evolution.sitemodel:
+            beast.evolution.substitutionmodel:
+            beast.evolution.likelihood:
+            beast.evolution.tree.coalescent:'>
+
+    <!-- Simulated diploid sequence alignment               -->
+    <data id='alignment' dataType='binaryWithError'>
+        <sequence taxon='1'>
+            %seq_1%
+        </sequence>
+        <sequence taxon='2'>
+            %seq_2%
+        </sequence>
+        <sequence taxon='3'>
+            %seq_3%
+        </sequence>
+		<sequence taxon='4'>
+            %seq_4%
+        </sequence>
+        <sequence taxon='5'>
+            %seq_5%
+        </sequence>
+        <sequence taxon='6'>
+            %seq_6%
+        </sequence>
+		<sequence taxon='7'>
+            %seq_7%
+        </sequence>
+        <sequence taxon='8'>
+            %seq_8%
+        </sequence>
+        <sequence taxon='9'>
+            %seq_9%
+        </sequence>
+		<sequence taxon='10'>
+            %seq_10%
+        </sequence>	
+        <sequence taxon='11'>
+            %seq_11%
+        </sequence>
+        <sequence taxon='12'>
+            %seq_12%
+        </sequence>
+        <sequence taxon='13'>
+            %seq_13%
+        </sequence>
+		<sequence taxon='14'>
+            %seq_14%
+        </sequence>
+        <sequence taxon='15'>
+            %seq_15%
+        </sequence>
+        <sequence taxon='16'>
+            %seq_16%
+        </sequence>
+		<sequence taxon='17'>
+            %seq_17%
+        </sequence>
+        <sequence taxon='18'>
+            %seq_18%
+        </sequence>
+        <sequence taxon='19'>
+            %seq_19%
+        </sequence>
+		<sequence taxon='20'>
+            %seq_20%
+        </sequence>	
+        <sequence taxon='21'>
+            %seq_21%
+        </sequence>
+        <sequence taxon='22'>
+            %seq_22%
+        </sequence>
+        <sequence taxon='23'>
+            %seq_23%
+        </sequence>
+		<sequence taxon='24'>
+            %seq_24%
+        </sequence>
+        <sequence taxon='25'>
+            %seq_25%
+        </sequence>
+        <sequence taxon='26'>
+            %seq_26%
+        </sequence>
+		<sequence taxon='27'>
+            %seq_27%
+        </sequence>
+        <sequence taxon='28'>
+            %seq_28%
+        </sequence>
+        <sequence taxon='29'>
+            %seq_29%
+        </sequence>
+		<sequence taxon='30'>
+            %seq_30%
+        </sequence>	
+    </data>
+
+    <!-- Binary substitution model -->
+    <input spec='BinarySubstitutionModel' id='subsModel'>
+        <lambda idref='subsModel.lambda'/>
+    </input>
+
+    <!-- The site model -->
+    <input spec='SiteModel' id='siteModel'>
+        <substModel idref='subsModel'/>
+    </input>
+
+    <!-- The error model -->
+    <input spec='BinaryWithErrorSampled' id='errorModel'>
+        <alpha idref='error.alpha'/>
+        <beta idref='error.beta'/>
+    </input>
+
+    <input spec='TreeLikelihoodWithErrorSlow' id='treeLikelihood' useAmbiguities='true' useTipLikelihoods='true'>
+        <data idref='alignment'/>
+        <tree idref='tree'/>
+        <siteModel idref='siteModel'/>
+        <errorModel idref='errorModel'/>
+    </input>
+
+    <parameter id='subsModel.lambda' value='%lambda_init%' lower='0.0'/>
+	<parameter id='error.alpha' value='%alpha_init%' lower='0.0' upper='1.0'/>
+    <parameter id='error.beta' value='%beta_init%' lower='0.0' upper='1.0'/>
+    <parameter id='yule.birthrate' value='1.0' lower='0.0'/>
+
+    <!-- The initial tree -->
+    <tree spec='beast.util.ClusterTree' id='upgmaTree' clusterType='upgma' initial='@tree'>
+          <taxa idref='alignment'/>
+    </tree>  
+
+    <run spec='MCMC' id='mcmc' chainLength='2000000' preBurnin='50000'>
+
+        <init idref='upgmaTree'/>
+          
+        <distribution spec='CompoundDistribution' id='posterior'>
+            <distribution spec="beast.evolution.speciation.YuleModel" id="yuleModel">
+                <tree spec="beast.evolution.tree.Tree" id="tree">
+                    <taxonset spec='beast.evolution.alignment.TaxonSet'>
+                        <taxon spec="Taxon" id="1"/>
+                        <taxon spec="Taxon" id="2"/>
+                        <taxon spec="Taxon" id="3"/>
+                        <taxon spec="Taxon" id="4"/>
+                        <taxon spec="Taxon" id="5"/>
+                        <taxon spec="Taxon" id="6"/>
+                        <taxon spec="Taxon" id="7"/>
+                        <taxon spec="Taxon" id="8"/>
+                        <taxon spec="Taxon" id="9"/>
+                        <taxon spec="Taxon" id="10"/>
+                        <taxon spec="Taxon" id="11"/>
+                        <taxon spec="Taxon" id="12"/>
+                        <taxon spec="Taxon" id="13"/>
+                        <taxon spec="Taxon" id="14"/>
+                        <taxon spec="Taxon" id="15"/>
+                        <taxon spec="Taxon" id="16"/>
+                        <taxon spec="Taxon" id="17"/>
+                        <taxon spec="Taxon" id="18"/>
+                        <taxon spec="Taxon" id="19"/>
+                        <taxon spec="Taxon" id="20"/>
+                        <taxon spec="Taxon" id="21"/>
+                        <taxon spec="Taxon" id="22"/>
+                        <taxon spec="Taxon" id="23"/>
+                        <taxon spec="Taxon" id="24"/>
+                        <taxon spec="Taxon" id="25"/>
+                        <taxon spec="Taxon" id="26"/>
+                        <taxon spec="Taxon" id="27"/>
+                        <taxon spec="Taxon" id="28"/>
+                        <taxon spec="Taxon" id="29"/>
+                        <taxon spec="Taxon" id="30"/>
+                    </taxonset>
+                </tree>
+                <birthDiffRate idref='yule.birthrate'/>
+            </distribution>
+            
+            <distribution spec='beast.math.distributions.Prior' x='@subsModel.lambda'>
+                <distr spec='beast.math.distributions.LogNormalDistributionModel'>
+                    <parameter name='M' id='mu' value='%lambda_mu%'/>
+                </distr>
+            </distribution>
+            <distribution spec='beast.math.distributions.Prior' x='@error.alpha'>
+                <distr spec='beast.math.distributions.Beta'>
+                    <parameter name='alpha' id='alphaA' value='1.0'/>
+                    <parameter name='beta' id='alphaB' value='%alpha_shape%'/>
+                </distr>
+            </distribution>
+            <distribution spec='beast.math.distributions.Prior' x='@error.beta'>
+                <distr spec='beast.math.distributions.Beta'>
+                    <parameter name='alpha' id='betaA' value='1.0'/>
+                    <parameter name='beta' id='betaB' value='%beta_shape%'/>
+                </distr>
+            </distribution>
+            
+            <distribution spec='beast.math.distributions.Prior' x='@yule.birthrate'>
+                <distr spec='beast.math.distributions.Normal'>
+                    <parameter name='mean' id='yuleM' value='%birthrate_mu%'/>
+                    <parameter name='sigma' id='yuleS' value='1.0'/>
+                </distr>
+            </distribution>
+            
+            <distribution id='likelihood' idref='treeLikelihood'/>
+        </distribution>
+
+        <operator id='lambdaScaler' spec='ScaleOperator' scaleFactor='0.5' weight='%lambda_weight%' parameter='@subsModel.lambda'/>
+        <operator id='alphaScaler' spec='ScaleOperator' scaleFactor='0.5' weight='%alpha_weight%' parameter='@error.alpha'/>
+        <operator id='betaScaler' spec='ScaleOperator' scaleFactor='0.5' weight='%beta_weight%' parameter='@error.beta'/>
+        <operator id='birthrateScaler' spec='ScaleOperator' scaleFactor='0.5' weight='1' parameter='@yule.birthrate'/>
+        
+        <operator id='treeScaler' spec='ScaleOperator' scaleFactor='0.5' weight='1' tree='@tree'/>
+        <operator id='subtreeSlide' spec='SubtreeSlide' weight='5' gaussian='true' size='1.0' tree='@tree'/>
+        <operator id='uniform' spec='Uniform' weight='10' tree='@tree'/>
+        <operator id='narrow' spec='Exchange' isNarrow='true' weight='1' tree='@tree'/>
+        <operator id='wide' spec='Exchange' isNarrow='false' weight='1' tree='@tree'/>
+        <operator id='wilsonBalding' spec='WilsonBalding' weight='1' tree='@tree'/>
+
+        <logger logEvery='2000' fileName='%logname%.$(seed).log'>
+            <model idref='likelihood'/>
+            <log idref='likelihood'/>
+            <log idref='subsModel.lambda'/>
+            <log idref='error.alpha'/>
+            <log idref='error.beta'/>
+            <log idref='yule.birthrate'/>
+            <log spec='beast.evolution.tree.TreeStatLogger' tree='@tree'/>
+        </logger>
+
+        <logger logEvery='2000' fileName='%logname%.$(seed).trees'>
+            <log idref='tree'/>
+        </logger>
+
+        <logger logEvery='2000'>
+            <model idref='likelihood'/>
+            <log idref='likelihood'/>
+            <ESS spec='ESS' name='log' arg='@likelihood'/>
+            <log idref='subsModel.lambda'/>
+            <ESS spec='ESS' name='log' arg='@subsModel.lambda'/>
+            <log idref='error.alpha'/>
+            <ESS spec='ESS' name='log' arg='@error.alpha'/>
+            <log idref='error.beta'/>
+            <ESS spec='ESS' name='log' arg='@error.beta'/>
+            <log idref='yule.birthrate'/>
+            <ESS spec='ESS' name='log' arg='@yule.birthrate'/>
+        </logger>
+    </run>
+
+</beast>
