@@ -50,7 +50,7 @@ Beast analysis XML files are in `E15/data/*.xml` and `L86/data/*.xml`
 ## Simulating new datasets
 **Binary datasets:**
 
-Go to the `sim1/scripts` or `sim2/scripts` sub-directory
+Go to the `sim1/scripts` sub-directory
 
 Run `simulate_binary.sh`
 
@@ -98,7 +98,7 @@ Beast tree viewer: trees can be viewed using Figtree or any compatible beast tre
 
 Beast logs are available at Google Drive https://drive.google.com/drive/folders/1vQ6xvs3qq4vJtiI7aDjqBP8xPF__VXAH?usp=sharing
 
-Unzip the downloaded beast logs archive `.zip` inside the dataset directory (e.g., `sim1`, `E15` or `L86`)
+Unzip the downloaded beast logs archive `.zip` inside the dataset directory (e.g., `E15` or `L86`)
 
 **Generating figures:**
 
