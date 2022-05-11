@@ -1,0 +1,137 @@
+<beast version='2.0'
+       namespace='
+            substitutionmodel:
+            likelihood:
+            beast.evolution.alignment:
+            beast.core:
+            beast.core.util:
+            beast.evolution.datatype:
+            beast.evolution.nuc:
+            beast.evolution.operators:
+            beast.evolution.sitemodel:
+            beast.evolution.substitutionmodel:
+            beast.evolution.likelihood:
+            beast.evolution.tree.coalescent:'>
+
+    <!-- Simulated diploid sequence alignment               -->
+    <data id='alignment' dataType='binaryWithError'>
+        %seq_data%
+    </data>
+
+    <!-- Binary substitution model -->
+    <input spec='BinarySubstitutionModel' id='subsModel'>
+        <lambda idref='lambda'/>
+    </input>
+
+    <!-- The site model -->
+    <input spec='SiteModel' id='siteModel'>
+        <substModel idref='subsModel'/>
+    </input>
+
+    <!-- The error model -->
+    <input spec='BinaryWithErrorSampled' id='errorModel'>
+        <alpha idref='alpha'/>
+        <beta idref='beta'/>
+    </input>
+
+    <input spec='TreeLikelihoodWithErrorSlow' id='treeLikelihood' useAmbiguities='true' useTipLikelihoods='true'>
+        <data idref='alignment'/>
+        <tree idref='tree'/>
+        <siteModel idref='siteModel'/>
+        <errorModel idref='errorModel'/>
+    </input>
+
+    <parameter id='lambda' value='1.0' lower='0.0'/>
+	<parameter id='alpha' value='0.1' lower='0.0' upper='1.0'/>
+    <parameter id='beta' value='0.1' lower='0.0' upper='1.0'/>
+    <parameter id='birthrate' value='1.0' lower='0.0'/>
+
+    <!-- The initial tree -->
+    <tree spec='beast.util.ClusterTree' id='upgmaTree' clusterType='upgma' initial='@tree'>
+          <taxa idref='alignment'/>
+    </tree>  
+
+    <run spec='MCMC' id='mcmc' chainLength='2000000' preBurnin='50000'>
+
+        <init idref='upgmaTree'/>
+          
+        <distribution spec='CompoundDistribution' id='posterior'>
+            <distribution spec="beast.evolution.speciation.YuleModel" id="yuleModel">
+                <tree spec="beast.evolution.tree.Tree" id="tree">
+                    <taxonset spec='beast.evolution.alignment.TaxonSet'>
+                        %taxon_data%
+                    </taxonset>
+                </tree>
+                <birthDiffRate idref='birthrate'/>
+            </distribution>
+            
+            <distribution spec='beast.math.distributions.Prior' x='@lambda'>
+                <distr spec='beast.math.distributions.LogNormalDistributionModel'>
+                    <parameter name='M' id='mu' value='%lambda_mu%'/>
+                </distr>
+            </distribution>
+            <distribution spec='beast.math.distributions.Prior' x='@alpha'>
+                <distr spec='beast.math.distributions.Beta'>
+                    <parameter name='alpha' id='alphaA' value='1.0'/>
+                    <parameter name='beta' id='alphaB' value='50.0'/>
+                </distr>
+            </distribution>
+            <distribution spec='beast.math.distributions.Prior' x='@beta'>
+                <distr spec='beast.math.distributions.Beta'>
+                    <parameter name='alpha' id='betaA' value='3.0'/>
+                    <parameter name='beta' id='betaB' value='3.0'/>
+                </distr>
+            </distribution>
+            
+            <distribution spec='beast.math.distributions.Prior' x='@birthrate'>
+                <distr spec='beast.math.distributions.Normal'>
+                    <parameter name='mean' id='yuleM' value='%birthrate_mu%'/>
+                    <parameter name='sigma' id='yuleS' value='1.0'/>
+                </distr>
+            </distribution>
+            
+            <distribution id='likelihood' idref='treeLikelihood'/>
+        </distribution>
+
+        <operator id='lambdaScaler' spec='ScaleOperator' scaleFactor='0.5' weight='1' parameter='@lambda'/>
+        <operator id='alphaScaler' spec='ScaleOperator' scaleFactor='0.5' weight='1' parameter='@alpha'/>
+        <operator id='betaScaler' spec='ScaleOperator' scaleFactor='0.5' weight='1' parameter='@beta'/>
+        <operator id='birthrateScaler' spec='ScaleOperator' scaleFactor='0.5' weight='1' parameter='@birthrate'/>
+        
+        <operator id='treeScaler' spec='ScaleOperator' scaleFactor='0.5' weight='1' tree='@tree'/>
+        <operator id='subtreeSlide' spec='SubtreeSlide' weight='5' gaussian='true' size='1.0' tree='@tree'/>
+        <operator id='uniform' spec='Uniform' weight='10' tree='@tree'/>
+        <operator id='narrow' spec='Exchange' isNarrow='true' weight='1' tree='@tree'/>
+        <operator id='wide' spec='Exchange' isNarrow='false' weight='1' tree='@tree'/>
+        <operator id='wilsonBalding' spec='WilsonBalding' weight='1' tree='@tree'/>
+
+        <logger logEvery='2000' fileName='%logname%.$(seed).log'>
+            <model idref='likelihood'/>
+            <log idref='likelihood'/>
+            <log idref='lambda'/>
+            <log idref='alpha'/>
+            <log idref='beta'/>
+            <log idref='birthrate'/>
+            <log spec='beast.evolution.tree.TreeStatLogger' tree='@tree'/>
+        </logger>
+
+        <logger logEvery='2000' fileName='%logname%.$(seed).trees'>
+            <log idref='tree'/>
+        </logger>
+
+        <logger logEvery='2000'>
+            <model idref='likelihood'/>
+            <log idref='likelihood'/>
+            <ESS spec='ESS' name='log' arg='@likelihood'/>
+            <log idref='lambda'/>
+            <ESS spec='ESS' name='log' arg='@lambda'/>
+            <log idref='alpha'/>
+            <ESS spec='ESS' name='log' arg='@alpha'/>
+            <log idref='beta'/>
+            <ESS spec='ESS' name='log' arg='@beta'/>
+            <log idref='birthrate'/>
+            <ESS spec='ESS' name='log' arg='@birthrate'/>
+        </logger>
+    </run>
+
+</beast>

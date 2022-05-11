@@ -1,0 +1,182 @@
+<beast namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+  <data id="D" spec="Alignment" dataType="nucleotideDiploid16">
+    <sequence id="Sequence" spec="Sequence" taxon="6" totalcount="16" value="9f59bb95a55554ca0d0543795c594a9f543070e989050991d443ddd59c55214dadabaf5450ff6fbf5a5da555a55c20ab0f5cfc20d59f5df953ffa05ada030df0aa57155afa00df5effda0455c54995af599540a455a95d09568194940aacd22c455dcde2b6a3a5020d5c00ad0dfdf0df06afda0e3a701caa5a955fdf490d53203ffcf000d54a939355f95d90af3450af059a1f52331a0f09e9af99d875af530c3e0a91b2aaa95ad50e05dff00a5f0dda5ac5aaa9ac5a0c5cfa320aaf90ad50f85aaaaeaec4501e0fa9d5ae5d5025f4d5c0ca2505505bfd0d55fc25d5c4f0f92f0a5529030ff050a03f390e9d59dff58aa5ff25ecc55cfda1235a90089550a0dd0daf0d5895aa55435f5c35504ae5d38a0559c835c55d0c0350c01afd9f01f0ff5817a85af4550d4f2fe5c90a4b30ff05b245a1a0f400a925c0d8558d000a8fb8585adc5055eaa95dfaaaa3a86f0f5afaf6391f6d855caaff303998335a1af053b4d5faad0a2225fd52fdf5a03bf555fd51d7950aac529a8f5d5c995822f009f2a34d5baa4aafa4aaa891c4ff0f5fc000d3f03d65afc0f50df9ac3f7fff055a005af2555dc0835fa8c502141935d0b40aaa9d195b055905a52594fd5da688d0ff6ff50cd489503ca5d9a329a055e05900009f0a030020095d4b05f95a9506ed39a309003aaf0253a55fa5dfd5a9a520330e3aa0f0"/>
+    <sequence id="Sequence1" spec="Sequence" taxon="2" totalcount="16" value="5adab99be5d0dac65c0500f9dc5959ad540a75ea89591905f0035ef5d0f0255f6d2a8ed45d3762ff4a5fa5dfaddf60cb2f5ffc251a0559f5503fab08d20135c0a0d35fd9da1a5faac5de545dc105a4acfa95490f95aadd4a5a8100a0ca05f2a055dfc5e2a6af8551affc5c5f051dc550a6a0df1a0af51c5a5a9d9ef0050557033ffc3fa0f54adf5a55f955a20f0505a0ad951f5a302aacd5e96da5d870a5f000fe09bdfad5091a558f255d3f1a5f0ddf5a5fba55a95aadd05a00aafd909d54facaa522eec0531e07a555ae7f520ae495c00a240953d3dfecff05a5f4ca95f9ff025505033845acf3fc3a3fae990f3f09a5ef0f8ef530ff9103da55aa1554f04d5d8dfd58a9e09543df4f061442e5d38fa8fa0a30a15d3fa3d0f09afdad21fffe5a95284a50d52f2005f5ea4185043df5b055852fc0afa50512da5595054aad00d0d45193b5ea0a9d3bc0a000605053f00a3a5faef0998825f0faaa03d8553053f0da30956aa2270f80e5e0f0f30dd5a55557952aa0d399035d57d9a822359dfaa355aa8a012f552a28a0045a0f5ff02259ec3e06f1f0000f398c3f55f38559c392fa5a55f38350aaf502140af5a4ad3afab5094b055a359504955d950a4850df54fa0dd4a5f83ca45ae3facefdfcf9a40d950e21bc088a555b04c5aaad86f535a3f128002a0a5f86ba645305ab300f00003a0af0"/>
+    <sequence id="Sequence2" spec="Sequence" taxon="13" totalcount="16" value="9edfb9aaa5f554f05f250f595f5909af50007fe589490910f440daf5dc04254d6f2f8ff5ad35a0fc085f5fdda5fc6f4b0fd55f0405ad59d553309f5ad2050d00a00f55d9da0a5f5acf5e547dc145a45cd9954aac5daafd49d6a155500a88d2ac45ffcde2aaaa8f91257f5c9d0d1dc0d0a6a3d00e0af210aa5a9d9adf55f555230eff3ef05f4a53b255fa5d920d3401a345a81f5833a9ace9e95f5ad851add30cfc099d32f9091add0a29dd0c0a5f0df34a47a099afda2f5ffaf08aaf509d55f0faaaa0ef05535a07a5d5aa7f9205e499c0fa2505d3f3ffaffdc405d4ca55fa3f52550500f045a0e3000aff9e95fdf509a5f00a8ef530fd50a3da54a85d55e20f4585055895a8a44fde4f350042f5f30f09faf8f0d5fffea05ac095dfa525fffa5aa7a05a15d52f202da5e5400904ff35b20a052fc400aa0d1ad0f9af044aa58a5054d093adfa0f9d0af0a0aaafdcd3d0f6f95f2fbc9a0805300faa33d0f20853f4f9fa51aa5003cd8aa5e0e3033df4ffd5d79a2aacd3a9005d94daa0aa3d9d0aa35fab82500da0aa2091cc08505a022a59ac3ef5a3f0352f3a8c0d5dd205550352f0595d0f0f5fa85542141a35ec8f3af99d094f0d5a05952095ff8f054ad3dd64fa4ff585faf0a4d9a0ea0eddecf95505950e20ff088a0d4b04c9589f8505098331a830af8a5d85fa54f0a5abf5200f0f022af3"/>
+    <sequence id="Sequence3" spec="Sequence" taxon="9" totalcount="16" value="9e5ffaabe550f0f20c254059d05a458f543855f909491911d04fda55f0d0255f65aaaed485ff62bc585f9dfdadff528b2ffffca415a555d5d30c9a4852000fc0a0d25df9da0e5faaf55f545f01059050daa54920a56adf09f68555900a00d0af55ffccf2a6af85902ffc509d0c15f5ffa6aff30e3a5afc92fa9d5efc4005d700fe5c3fe0fd52dfa0d5d955520d3510a04d901a583725a059fa65a5f851adf00c0ef95502d90a1a5dae29dff01adf055f0a45b059addaa5dc5a308aefa09554f8caa020eef05f2e4799d5ae7d9209f599cffa0505dfd0ffe0ddf02dd40a9059ff5a55090f0a44ace30c393dafa9fdfd89a5e32a9ed55ffd95af5aa0281f50fa4d0f0d05d889faa55f5e503a545aa5508fa5fa08f3c5df3eafd0005af5ad00d00a5aa528ca00550da02de5e50189043df5b24a8103f02f290510d0f99d000a0f845054d19fbfaa8b5dfaf8a3a853dc53d0f53a1fafbc59885d30faaa33fa503050b4d532916a22a5c582e5f0e3fff555edf5d0a92aa05359c35d9459aa22fd5dfaa3558f4040a5942a259104505f5ec00059ec3ec5afc0310d098f05fff3a559f39af05a5fcfaf53a8f500001af5a48d08a995154b0d01f5d52454d5ad864ac3d5a4ff0ff005d03fa4d5e3faced5a0f594af5d2e20ac280a154b05ca505d06cd0a8f3aa0ff2ba0ddaabfa5d3950af42c335c32aaf0"/>
+    <sequence id="Sequence4" spec="Sequence" taxon="8" totalcount="16" value="aedbaaabeadad5cacca550f05fda459f50004fe98a090a80d553ffd55f042a4da529af559c0daab0005f9d5d0d5f52aaaf5ddc08559d555af05c9558f20f35f2a0d30fd91a5ddf9affde0c5d0145549df90545ac9f8a5d09daa5a054ca00f20005dfffe2a6a3a9900ff5455d0dddc0dca693c31e3af01da2de85ded459fdd32f3ad0faf05d5050925df55aa20d301003455a1f5a0fe92c5af9fda9da708d530f3e39a1a29a095a5dae08d500fa5f05f94af5509bacda2dfc5a3aaafda295f4f802a52afef4535a5f9a558f5f5a29e0aaff0a2409df5adfccfdf00d950c51f53fa0d50503fa6590e33ff10ea5a9cff589a9e00f4fc510f590affa9ca89554e25f458e0550a9ea0f430e0c065442e0539e20df4a0f895f3fa3dac089a51c29d0ca4a0f00fa5ad50f03a55f0af55f003d35b2ca0923056aaa0552d0f585055a8f985850caa37feab9a538eaa3886fd5d050a50aaaa5b05aa80f30359a33da0230d1f059fa914a0207fd03adcf2f3bfd54fdf5f5980aafd39f0055945909223f0df0ad5d5a00500d942a0a5504fa0f5ec20a55ef3d06b3c0310539800f5af3f55d03aaf25955f3a350aaff0a051af5f48d0aa09d0a5af5090555a0a5f50f8658d3dfa5f64cf0a95a3ca5d9a029025dae5aa0059fceaff8aa081ddaf5f598958acd398039a0faaba2df869cacf3991f000c034f32a533"/>
+    <sequence id="Sequence5" spec="Sequence" taxon="12" totalcount="16" value="5effbb9ba5fa54cacf2553aa5cd50daf55085daa89c90590d453155dfcc02945ad09ae54a0fd6ebc485da5d52d50528b2f5dd02fd5ad5df9531c9f58d2310f01a0d00fd9da5dd75a0d5ff54d015594a5d9a559ac539add0bdaa59094da8a512045dd0fe2a6afa5a2fdcd555d0dffc5dc96a3c30e3a7210b2feaa5e5a4935f3a00efcfee0d542f3aa5dfa59a20d000f0551500f5830a92cf9a56fa9f87f85df0c5e35a1b155290a5d5f2a55102a5d05554aa75098afda2dfcda30aaef92adf0f802a52eeff0500a475ad58eff9a25e4f50f0a2505f35bddc0ffc00f948c90dfff02f52953fb5550ef0ff10e9d9acd3e89a9a3254dc55ffd51af5a9ca05d54f0555d8a05589ae0804faa0f3a1402d5d05ea1da503385ffff20d2f085a5ac00d4fe4a0f207a55550d03a565cbf59bf45f35ba40452f54ab202d52f0d5810549af985844c053b1aa8595fae0a38853d553d1e6381c25bfaaaaad30389a30faf200d1f55532a05a02a7c580edfc253f0fd055f5d7982aae135dcf5d505589223d85f2a55d558250ad542a2a9040300f5efa02d0f03506bf0335ad3bad3dd5f3a55d038afa595d038353aaf500141af5e48539a5ad1508f5f93555a595fd1f8a00d3d565d600d40a583fa5d9afa5f25daf50940f9fce233aa8aa55ffd4a5585d0ac535a3f9aa0eab825ca6acac50a55f302c3f4f322530"/>
+    <sequence id="Sequence6" spec="Sequence" taxon="3" totalcount="16" value="aedaf09ba5d6540acda550f55cd959af50fa4deaa5c5095154835cdfdcc4150dad259a55903f5eaf485daddd2d5f60abaf5f5cf0d5955d55ff50aa58d231fd02aaf30fd55a1dd7aaff5ef005c045505f559509af909adf5a56a194950a88d2a545d5fff2aaafaaaaadf5415f0fd500dd5aafc05a3af25cf2dea55fd44a0fd0a03e5cfae0f540ff9255da50aa25f505a341900f5833f92cd5ff5f5a5873a5d30cfa0591a259c51afe5f29550c0a5505da58ff9294ac5aadfcfa30aaefaa9df4d80aa50aeac5530e0559f50f5f902af5fa000a2409dfdffdff5d040f940ca15d3f82f00a433b5050e3f0303e9f9acf3da9a9f32c0fc550fd5120da502a5555eadf4f0e05589ae90e408e0035554255d35ea5fb48f389d5fef3f0c009f5ac25d5cf4a1fa0fa55550d0fa5650a0a5b30fd55b2580a0f04a0082552f0d581050a0fa85844c29fa0fa0955f0f0a000af55f3d0260a1c55fc9aa8ad0009aa335af230f0a5fa32a04a630ff5a0ed0c25faf5d5ad55ff90abaed055035fa0f5c9223f853aad5f5a8a5005a42a00a104fa4f5ac002d5a005daf3003105faad0d55d0a5dd038af3595d0f0f53a8f502040af5a48ff9e58f59000dc90555a590f5058640dfdd64f55ca5895000a4daaf29c2ddf05994059fce230aa88a0dcb55ea589f06cd39003520feaba2fd0a9a6cf0aa1b355c0f4c3a0500"/>
+    <sequence id="Sequence7" spec="Sequence" taxon="4" totalcount="16" value="5a5bfa5be5d610ca0c0540755fd5555554385dea09090595d4735ccdf0c40955ad0aaa549c0daabf4a5da55d0f5d20aaa05ff0aff59d5dd9d31c5558f03f0ff2a8d30fd9da5dd7fafd5ef45dc105549d599508ac93aaf509da8095950aa8da2545dcfdf2aaaf8aa0050d455d05fd84dc96a3f01f3a7a1cf0da555ff449055f23fffc3ee0d502f0a055da55a225051f2f40901f58f3e52fd9e965995871add3003e3a50a0da051aedae29f51c3a5f0df549a79098acda055fda32a2ef9aa5d4d8caa52fef04131a45aad5aa7f522ae0b9ccca250a535fdf0c55c0fd54cf91dd3faad70503fb5450f02c310ea595f53da5a1e02c40051ff5900fda9c085f54ea5d454e0ff899f00f5f8a5c360402a5df9fa1da4a0389153e23d250a9f59025d4f00a1700fa50550d03a955cb059b343ff5aa5a09af502028a0025055a0000a0f5850400250b1fa8595fae8a3005fd550d1e6085025f05aa82f00f99af0daf2f0f1b555fa954aa2070503e5cf2fab3df4d5f55f980aaa539f005d50f5a520fd0502af5d99a2402d940a0a9044084f5aca0251e0fdcaa303050faa003d59df0fddc38afa555dc30553a8fd02155af5f5a5f9e59f5548f50535a5a4a4fd5f864853f560f54cf50a503fa4d9a30aca55ec599005ad0f2f38a0882dfff0aa9a550acf3a8ff920ffab82df869f60d05a1ff40cf05f3a2530"/>
+    <sequence id="Sequence8" spec="Sequence" taxon="5" totalcount="16" value="9fdafb5ae55ad0facf25435a5cd94a5550fa4da989c50995a54f50dd5c002a4f55a9ae549c35aefc085d5fdd255d628faf5fdc2cd59f5d59531f555ad0303dc2a0d01f595a1ff5aacdde040dc505945df99500afa35adf5ad685a494fa08f22405df0de2f6ab4992ad0f515505d5c5dca5a3c31e3a5a0fb2daa05ed05a0f532ffef00ee0f500d3925d5a599aa505132001981f0903f52fdad965a558738ad30cfa3a5af2950a5adf5a0ad5503a5d0dd95ae5909fa05a2dff5a32aaef50d5d5f8c08aaaaac0500a075ad59e5f92a9e4b50fcaa409df5bddf5dfc40555c091dd3faa55090315555fe00c013e55aaf53d09a9e32c4cf51cf55027fa9f2a5d50a25f0f8a055859a88f4fae0ff5544af5df9ea5df48f38dd50e2ff2f00af59c0014ce5a570afa54d50d00a5650fcaaf340535ba0a09231007a0251ad0f501004aafaa5a540293b1aa055508e8af806f55d0d1a6381c25ff9aa805f0f85a03da3af0f1b0d5f2a00a00affd00ffc0070b3dd0ed55d5a00aaef395f055a4da8a000f0d32af5d99a000a5952a2a51653a0d5ff202d1ec3fc6b3c3010f0baffd5553855dc38afa595dc08f50a0fd020a1935e08539e19d5a48c5c5f5a5a495ff1586505fdfa4fa50d40a5a3fa4f9a0295af5af559505adfe2330a8885dcfd5e5a85da60d098309a0faab00df859055d0551f05af304c020f00"/>
+    <sequence id="Sequence9" spec="Sequence" taxon="7" totalcount="16" value="aedfff9ba5f6d4f5fc0550f05c55599d540845f989c50591950350d5df00a54f5d25aa505f355ea0405d9ddfaf5fa08b0755dc28d5af55f95f5c9958000135f2aa500fd9da0ddf5a05fffa4ff04590ad5a9549a0559af549f6a190a00a88d2a505fdcfa2a5afa95a2ff541552dddc05c96a3c35e3a521cb0daa95fd04535ff03fffc3ef0d5425f9a5fda5a9225f41fa7a1585f5033e90cfa5aad9958530d5f0f0a355af0a9095add5f35f51c3a5d0ff04aa55050affa0fdc5a00aafd9a9550dacaa9aafec45f5f0799d5aa7d9205f4b9cc0a2405f35bdfc55dc40d50fc55d50f8ad520530f255f530c35fa9daaff3da9a9f3ac5cf50ffd91afda9f2aff55e25f0d4a0558a9ff0a5fae4f0a0450a4df9ea1fa480089dd3ea3da0008e5af25d0cf5a1f30fa58d50500a565caaa9bf43d35f248092010ab28ad1250f501055a8f5a5854f003b1aa8a9530eaa30aa355d3f1a5380025bf5aa8a5f039aafadaf2f050a0d93a910a0a2fff83af0ca73b0dd4ddd555980aaed3f54f5555d9892a0daf0aa5455502002f550aa05540f80f5ff20ad0ff3ffab2cf012d0f8f3d59ff055df08af25a55f30353a8f50a140935a08ffae59f1550cdca05a5a455ff550a40ffdda0f55cdc89583ca4d5a0a902ffa059a40f5d0e2308a8a05fcbd4f5989f86f5398339203aaf0af5069f5fd0591bf42cff4cf0a503"/>
+    <sequence id="Sequence10" spec="Sequence" taxon="15" totalcount="16" value="9efaab1be5d5d40af0a503385cd90a99543a4ffa05c9099094535cdd5cc4a5416529ae549c0daaa008555dd5ad5daa8bad555cacd5955dd5130055555235fdc2a8d30f59fa1ddf5acffef44dc545959ff99545ac539afd49d6819490ca80d2a455fdafe6a5a0aaa22fcf415daddd005c5aa3c3af3a5200a2daa95fd4590553003efc3aa0dd00df9a5dd5559a0d30532341085f5803faacfaf96f9ad8708fd30c3e59a9f299090addaf09d5103a550dd55aefa29aafda0fd05a02aaed1aadf4d8cfa9aeeaf5535207a9d58efca009e4b5cffa0405f35ffdfd5fc00f95c0555f3f00f525033b645faf30f00e9f99cdff8aaae02c4c051ffda5afda9fa8ad55ea550d8f055859e88a008f4c360403f5d35ea0db58f009f5fa2352c0a9a5ac20550e0a1f2afa54d50d00a5550bf59af4f505f008090054af2aa510d0f500046a8f9850540a90b1aa89950af8a08850d5f050e6381025a05aaa0500099a33da02f0d074fa32900a0a27fd8ff50c270f3fd55f55d7aa0aafdf95c35da41aaa02ff8500ad555a82502d942a085544304f4af200f0ef3dc5b3c305afff8c0559d385dfc38afa555ff00053a8ff0a145a35f58f35e1a05a48fdf9b555a4a5f55d064053df50f6405085583fa4f9af28ca55f05955055dfe03f8aa0affcaf0a5989f0ac5f580f508faaf805f865cacd3a51af520000c30a533"/>
+    <sequence id="Sequence11" spec="Sequence" taxon="11" totalcount="16" value="aadb8b9be5d5f4fac0a5035050e9099f50305def89c909a1a4505cfd50c4094565a5af509c3daeaf485fa5dd255da68b2f5f5ca0d59d5ff9f31ca958d0f00dc0aa5f3fd9fa5fd7aa5dda3455c005959fd9a54aac9f9a5f59d651a590ca8ad204055505fabaa389a2adcd5f5e055d005f96a5c05e3a7050b05f995e5455f550033fdc3ef05f42d3aa5d5959ae1d000f0341941fd00fe92fd9d5a599f073a5f0203f3a55f25a095a559f09d51c3a550ffa4af75098acfaadd0faf1a9e5925df5f0c0a920ae04531e07aa550e4d922ae4bac00a2409f35bdd05ffc00f90f051fd3fa255255f3b6553af0c313eaf99fdfd05a5502c5d055cfd5123fa5f2a9555ea550daa0558a9ea0e008e4cf50452f5f35aa05b5830895f0e0fd00089e55c21f0cf0a1fa85a54d50d0fa5550bfa5b303d35ba080903552aa02d52f05580000a8fa05044c09fa0ea89953afaafa8a0f1d0d05a3a1ca5bc5aaa2d00faaa03fa3a00d1f0d9f2504a20afcfb0a5fc25fb7df45d95d7980aaff3afcf5f94d9a52e0f853aad5d5982402fa4aa28f1553a4f5aca00f1ecf506bf0f00050b000d59f0a55df30af25a5dc3005fa8ff0f101105e4af09f09d1948fdcb0555a090ff5f0608d35555f540d4855000a4d5af29c05ff059540f55fea308a8a815cbf4e9989f85c53980f928feab805d868da0df9a5f3420000cfaa50f"/>
+    <sequence id="Sequence12" spec="Sequence" taxon="1" totalcount="16" value="5fdfbb9ff556d0cacfa543705c59099d40fa4fe9aafac99555405cff5f0ca95d6d6aae549c3d5abc085f5df5ad555f8f2f5ddcacd59f5d59df0f9950d2f53d00a0f31f5a5a5cd75acddef55ec105959dd5a509aca3aa5f45558194500a0ada2045dfc5e2f6a089a02dc5095f0ddfc5dca6afc05afafa1c525e955ad50935ffa3fedc3affdd4af5514fd55aaa2ff55f200a9850583309a0d9e96d99f8730ff34f3f3a90b2a9055add9f0ad51f3a550df95ac59098af5a15d05a3aaaef929f55d802aa2eeef4500f47a9f58f7d5225e5a9fcca240ad35b55cc5dc00da4fca1dd3f80d525530f6450ff30f53f5f5a4df08aa5f3ac4cf51cf5a023da902a5d54d25d058e055095c80e509a4cf51f4a05d09ea1ff5a3f895ffe23d0c0a9a0ac21d5ca4a050a7ad4d50f03a5550ff99ff53d35fa500a23040f0a2f1a5055a1044a0f9a5840da53a1aaa59538a8a08063f5dfd5a5080c05af9aa50d30f99a33fe3a3053b5f93a514a220f058fa5eea73af5f45df5f7900aaf5f5df35d95f98aaafd85029d5faaa240ad552a29a1050a4f5a0a02d0ec35c6afc0f125fb8c3d59df8555c08a025555ff835fa8ff0a141505f0fd39e595050f0dc975a5a010fd0f054853ad64f56cd5a95af0a4d5afa9e2fde05a970d95fe2030aa881f4b14ea5aaf06cd3a8339aa3aaba2d5069c7ff3aa5a3700034f3005f0"/>
+    <sequence id="Sequence13" spec="Sequence" taxon="14" totalcount="16" value="9e5b9a9ae5d5f40acf05407a5fda595d543a0da989c90a95d5505cd9fcfca90d6fa9ae55903d6faf585dbd5d0f5d62af2d5ddf00d55f55f5ff0c955852f13fc0a05f13d9da1cff5a0ddf345dc005945fd99545ac939ad509d6805094fa08da0455ddcde2f6a305920f0f41550ff5045ca6afc30f3a520fa0dc955af0453d5f003edc3ee0dd02f0aa0df959da2df5130f01a80f5a33e9ac59fa655ad0ff8fd05efafa91b295090add9a2ad50d3a5d0dda0ac59250acdaa5dcda02aaaf5a9d54daf0a5aeff005f1f07a9f50e7d92a9f5f500ca040af35ad5ccfdc42da0cf955d3fa0d529503a5050e070f5fe9f59fd3d8aa9af2f5cf5dcfd9123fa9caaad50e05f5daf05589aa08f030a4c3a1f42a5df9ea0db4ff3a5d506235200a9e55f25500e4a55285ad0d50f03a565cf099f34f535f250050f542b0a2d02d0d580004a0f5a5005d55ff1ea0aa530f8a35850d5f3d1f6300025f09a892d0031aa00da3af5dfb0da32904aa2075da3efff2f0a3ff45dd5f5980aae539df35d94fa09223d8d00ad5da5a2402d502aa89044380f5ac20055ac0dcaf3c030293a800f55d385f5ff02f05a5d03035f08f002105515e5ad3af1550945fdf5f5a5a555f51d86aaffdd54f64fd48a583ca05550aacadde059940555ce03faa0000dcb50eaa89506fd3943faaa3ebaa0dd05aca0d3a91b342fbf500aa53f"/>
+    <sequence id="Sequence14" spec="Sequence" taxon="10" totalcount="16" value="5fffaa9fe5faf40afc254f785cd9499d54fa0dfa890a09a154035c5ddfcf290faf25aa54a005aebc0a5aafdf2d5d5a8fa55df02cf59d5df9f35c5150d0f5300aaaff5fd9da0c54aa0dde345dc145549fd9a549af9faadf49d6819090caa0f2a5555dc5e2b7a085520fc5415505d5c5dc5aaff01f3a725cf2fe595ad54af5f3333fdcfee0df42d3aa5dd95992ad0513a000981f5a30052fd9a56d99d8f38dd04a3a3995a0a90a1afd9e29550cfa5f0daa4acfa2a8ac5a2ddcfaf08aeda25ff4e8daa5aeaec55f5e055955ae7f9029e5a9fcfb2409df5ff50cd5042da4cca1dfff82d529030b6450a00cf10aaf5af53daaa9ff204fc50cfd91a35a9ca05d50ea5f4586055a95ca8a408e003a1050e5dfaaa1df0a0f895dff23f20089e5af2554ca4a1fa85955d50d03a5550bca9bf03f35a0488a03142b2a0d1ad0d5a1044a8f505a44d09ff5fa05aa30aaaf9863f5d3d0fa3810a5a0aaa92df03aaaffd63030d0f45901554a2a0f0daffde027ff0f54d5d5d7980aaef39f035f9459a90235af32a55f9902400d95aa2aa144200b5f020ad5ac0dcabac03f0dfb8cf559f0f1d5c38af2aa5fc3035f8afd021419f5e0bd39f19d194bf505f595a704fd0d8648f0d5a0f64cf08958fca0d950adf05dec5aa405adce0310a0085dcf10aa98ad060d3583f5283aaaa2df059c5cdfa51a0020334f00a503"/>
+    <sequence id="Sequence15" spec="Sequence" taxon="0" totalcount="16" value="9adfababe5d654facc0543745c595a9d54005de989ca05a0555350555ff425455daaaf54903d6efc505daddd2dff508f2f5df020d59d5dd9f30c9a58f2f1fd02aaff55d9fa1cff95cfdf355fc045549df9555aac93aad549d60154a00a00020045fd0da2a6a08a922ded4155055dc55c05830f1afa521cb2fa5a5ed54af5d3030f50fea05552dfa25df955a00d34030f45905f5830e92ccaa96d5ada70add00c3af991a2a9091afdae05d5500a5d0fda5af5909aa0da0fffda32aaf5aaaff5caf0aa2eefc0530f4591d50effa229f4aaccfa250a505b55c05d04ad94fca1f53f0ad5a943096550f3f035fa9d99cd3585a9f32c4cc510f5a520da5f209d54e05f4d0e055899eaae039f5cf51445a5ff9aa1fb083fa5fd0a2050c009f59f20d5ce4a0f20fad5550f03a555cbfaaa043505b2480aa310ab0aad5250fdaf040a0f985805f39fb5ea85a55ae8a08a60d5f0d1ea045f25bc5aa82da0399a005a0030f3b55a02a05ba0a5cfa0ef0c253bff505ed516900aaf5fa5c35f505aaaa0fda530a55f95a2502dd02a209140085f5fc200d1ec15c6b30a312f0b0c3d5ad3a5f90f0af6595d038050a0f50204d935f4bffae1ad190fcd05f5a5a4a45d5d065013ff65f55fd4855a00a0f9a029c2d5ff59900d95fea330a80a1d0f10c5585d86f5f5a035200faa00df855c6ef0a50b342c305df225f3"/>
+  </data>
+  <run id="MCMC" spec="MCMC" chainLength="10000000" preBurnin="380">
+    <state id="State" spec="State">
+      <parameter id="pi" spec="parameter.RealParameter" dimension="16" keys="0 1 2 3 4 5 6 7 8 9 a b c d e f" lower="0.0" name="stateNode" upper="1.0">0.0211007507161294 0.03945078886019053 0.07486144041443107 0.09641872176372746 0.0684543326470719 0.06306510218063185 0.025306012424769653 0.020659749768022127 0.06630095141860534 0.16273458147137165 0.04910737492210696 0.019801721873649966 0.06885027143224945 0.14990503409634567 0.06247579439033617 0.011507371620360684</parameter>
+      <parameter id="rates" spec="parameter.RealParameter" dimension="6" keys="AC AG AT CG CT GT" lower="0.0" name="stateNode" upper="1.0">0.15901559310295102 0.3217651625912742 0.15240148906671253 0.05117368622266807 0.2886462616663524 0.026997807350041817</parameter>
+      <parameter id="theta" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.07743228623014585</parameter>
+      <stateNode id="T" spec="beast.util.TreeParser" IsLabelledNewick="true" newick="((6:0.14429773297280526,((2:0.004630744613678793,13:0.004630744613678793):0.007901729522757662,9:0.012532474136436454):0.1317652588363688):0.02631050351648831,((((8:0.0130694888812443,((12:0.0035845324097745733,3:0.0035845324097745733):0.007887245121265533,4:0.011471777531040107):0.0015977113502041937):4.166994369323232E-5,(5:0.005354403795858624,((7:9.926554265697596E-4,15:9.926554265697596E-4):0.003041747185592663,11:0.004034402612162423):0.0013200011836962018):0.007756755029078908):0.008329835394796814,(1:0.01429459044372945,(14:0.0026871512068796606,10:0.0026871512068796606):0.01160743923684979):0.007146403776004897):0.003928179680296948,0:0.025369173900031294):0.14523906258926228):0.0;">
+        <taxonset id="TaxonSet" spec="TaxonSet">
+          <taxon id="0" spec="Taxon"/>
+          <taxon id="1" spec="Taxon"/>
+          <taxon id="2" spec="Taxon"/>
+          <taxon id="3" spec="Taxon"/>
+          <taxon id="4" spec="Taxon"/>
+          <taxon id="5" spec="Taxon"/>
+          <taxon id="6" spec="Taxon"/>
+          <taxon id="7" spec="Taxon"/>
+          <taxon id="8" spec="Taxon"/>
+          <taxon id="9" spec="Taxon"/>
+          <taxon id="10" spec="Taxon"/>
+          <taxon id="11" spec="Taxon"/>
+          <taxon id="12" spec="Taxon"/>
+          <taxon id="13" spec="Taxon"/>
+          <taxon id="14" spec="Taxon"/>
+          <taxon id="15" spec="Taxon"/>
+        </taxonset>
+      </stateNode>
+      <parameter id="delta" spec="parameter.RealParameter" lower="0.0" upper="1.0" name="stateNode">0.5</parameter>
+      <parameter id="epsilon" spec="parameter.RealParameter" lower="0.0" upper="1.0" name="stateNode">0.01</parameter>
+    </state>
+    <distribution id="posterior" spec="util.CompoundDistribution">
+      <distribution id="prior" spec="util.CompoundDistribution">
+        <distribution id="Coalescent" spec="Coalescent">
+          <populationModel id="ConstantPopulation" spec="ConstantPopulation" popSize="@theta"/>
+          <treeIntervals id="TreeIntervals" spec="TreeIntervals" tree="@T"/>
+        </distribution>
+        <distribution id="rates.prior" spec="beast.math.distributions.Prior" x="@rates">
+          <distr id="Dirichlet" spec="beast.math.distributions.Dirichlet">
+            <parameter id="RealParameter" spec="parameter.RealParameter" dimension="6" estimate="false" name="alpha">1.0 2.0 1.0 1.0 2.0 1.0</parameter>
+          </distr>
+        </distribution>
+        <distribution id="pi.prior" spec="beast.math.distributions.Prior" x="@pi">
+          <distr id="Dirichlet1" spec="beast.math.distributions.Dirichlet">
+            <parameter id="RealParameter1" spec="parameter.RealParameter" dimension="16" estimate="false" name="alpha">3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.0</parameter>
+          </distr>
+        </distribution>
+        <distribution id="theta.prior" spec="beast.math.distributions.Prior" x="@theta">
+          <distr id="LogNormalDistributionModel" spec="beast.math.distributions.LogNormalDistributionModel">
+            <parameter id="RealParameter2" spec="parameter.RealParameter" name="M">-2.0</parameter>
+            <parameter id="RealParameter3" spec="parameter.RealParameter" name="S">1.0</parameter>
+          </distr>
+        </distribution>
+        <distribution id="delta.prior" spec="beast.math.distributions.Prior" x="@delta">
+          <distr id="Beta123" spec="beast.math.distributions.Beta">
+            <parameter id="RealParameter123" spec="parameter.RealParameter" name="alpha">1.5</parameter>
+            <parameter id="RealParameter456" spec="parameter.RealParameter" name="beta">4.5</parameter>
+          </distr>
+        </distribution>
+        <distribution id="epsilon.prior" spec="beast.math.distributions.Prior" x="@epsilon">
+          <distr id="Beta234" spec="beast.math.distributions.Beta">
+            <parameter id="RealParameter234" spec="parameter.RealParameter" name="alpha">2.0</parameter>
+            <parameter id="RealParameter567" spec="parameter.RealParameter" name="beta">18.0</parameter>
+          </distr>
+        </distribution>
+      </distribution>
+      <distribution id="likelihood" spec="util.CompoundDistribution">
+        <distribution id="D.treeLikelihood" spec="phylonco.beast.evolution.likelihood.TreeLikelihoodWithErrorFast" implementation="beast.evolution.likelihood.TreeLikelihood" tree="@T" useAmbiguities="true" useTipLikelihoods="true">
+          <errorModel id="GT16ErrorModel" spec="phylonco.beast.evolution.errormodel.GT16ErrorModel" delta="@delta" epsilon="@epsilon">
+            <datatype id="NucleotideDiploid16" spec="beast.evolution.datatype.NucleotideDiploid16"/>
+          </errorModel>
+          <data idref="D"/>
+          <siteModel id="SiteModel" spec="SiteModel">
+            <substModel id="GT16" spec="phylonco.beast.evolution.substitutionmodel.GT16" nucRates="@rates">
+              <frequencies id="Frequencies" spec="Frequencies" frequencies="@pi"/>
+            </substModel>
+          </siteModel>
+          <branchRateModel id="StrictClockModel" spec="beast.evolution.branchratemodel.StrictClockModel">
+            <parameter id="RealParameter6" spec="parameter.RealParameter" name="clock.rate">1.0</parameter>
+          </branchRateModel>
+        </distribution>
+      </distribution>
+    </distribution>
+    <operator id="T.narrowExchange" spec="Exchange" tree="@T" weight="6.656775051475125"/>
+    <operator id="T.rootAgeScale" spec="ScaleOperator" rootOnly="true" tree="@T" upper="0.975" weight="1.0"/>
+    <operator id="T.scale" spec="ScaleOperator" tree="@T" upper="0.975" weight="6.656775051475125"/>
+    <operator id="T.subtreeSlide" spec="SubtreeSlide" size="0.01706082364892936" tree="@T" weight="6.656775051475125"/>
+    <operator id="T.uniform" spec="Uniform" tree="@T" weight="6.656775051475125"/>
+    <operator id="T.wideExchange" spec="Exchange" isNarrow="false" tree="@T" weight="6.656775051475125"/>
+    <operator id="T.wilsonBalding" spec="WilsonBalding" tree="@T" weight="6.656775051475125"/>
+    <operator id="deltaExchangePair1" spec="DeltaExchangeOperator" autoOptimize="false" delta="0.0625" weight="1.0">
+      <parameter idref="pi"/>
+      <weightvector id="IntegerParameter" spec="parameter.IntegerParameter" dimension="16" lower="0" upper="0">0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0</weightvector>
+    </operator>
+    <operator id="deltaExchangePair2" spec="DeltaExchangeOperator" autoOptimize="false" delta="0.0625" weight="1.0">
+      <parameter idref="pi"/>
+      <weightvector id="IntegerParameter1" spec="parameter.IntegerParameter" dimension="16" lower="0" upper="0">0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0</weightvector>
+    </operator>
+    <operator id="deltaExchangePair3" spec="DeltaExchangeOperator" autoOptimize="false" delta="0.0625" weight="1.0">
+      <parameter idref="pi"/>
+      <weightvector id="IntegerParameter2" spec="parameter.IntegerParameter" dimension="16" lower="0" upper="0">0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0</weightvector>
+    </operator>
+    <operator id="deltaExchangePair4" spec="DeltaExchangeOperator" autoOptimize="false" delta="0.0625" weight="1.0">
+      <parameter idref="pi"/>
+      <weightvector id="IntegerParameter3" spec="parameter.IntegerParameter" dimension="16" lower="0" upper="0">0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0</weightvector>
+    </operator>
+    <operator id="deltaExchangePair5" spec="DeltaExchangeOperator" autoOptimize="false" delta="0.0625" weight="1.0">
+      <parameter idref="pi"/>
+      <weightvector id="IntegerParameter4" spec="parameter.IntegerParameter" dimension="16" lower="0" upper="0">0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0</weightvector>
+    </operator>
+    <operator id="deltaExchangePair6" spec="DeltaExchangeOperator" autoOptimize="false" delta="0.0625" weight="1.0">
+      <parameter idref="pi"/>
+      <weightvector id="IntegerParameter5" spec="parameter.IntegerParameter" dimension="16" lower="0" upper="0">0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0</weightvector>
+    </operator>
+    <operator id="pi.deltaExchange" spec="DeltaExchangeOperator" autoOptimize="false" delta="0.0625" weight="6.656775051475125">
+      <parameter idref="pi"/>
+    </operator>
+    <operator id="rates.deltaExchange" spec="DeltaExchangeOperator" autoOptimize="false" delta="0.16666666666666666" weight="3.0851693136000478">
+      <parameter idref="rates"/>
+    </operator>
+    <operator id="swapPair1" spec="SwapOperator" parameter="@pi" weight="0.5">
+      <filter id="BooleanParameter" spec="parameter.BooleanParameter" dimension="16">false true false false true false false false false false false false false false false false</filter>
+    </operator>
+    <operator id="swapPair2" spec="SwapOperator" parameter="@pi" weight="0.5">
+      <filter id="BooleanParameter1" spec="parameter.BooleanParameter" dimension="16">false false true false false false false false true false false false false false false false</filter>
+    </operator>
+    <operator id="swapPair3" spec="SwapOperator" parameter="@pi" weight="0.5">
+      <filter id="BooleanParameter2" spec="parameter.BooleanParameter" dimension="16">false false false true false false false false false false false false true false false false</filter>
+    </operator>
+    <operator id="swapPair4" spec="SwapOperator" parameter="@pi" weight="0.5">
+      <filter id="BooleanParameter3" spec="parameter.BooleanParameter" dimension="16">false false false false false false true false false true false false false false false false</filter>
+    </operator>
+    <operator id="swapPair5" spec="SwapOperator" parameter="@pi" weight="0.5">
+      <filter id="BooleanParameter4" spec="parameter.BooleanParameter" dimension="16">false false false false false false false true false false false false false true false false</filter>
+    </operator>
+    <operator id="swapPair6" spec="SwapOperator" parameter="@pi" weight="0.5">
+      <filter id="BooleanParameter5" spec="parameter.BooleanParameter" dimension="16">false false false false false false false false false false false true false false true false</filter>
+    </operator>
+    <operator id="theta.scale" spec="ScaleOperator" parameter="@theta" weight="1.0"/>
+    <operator id="epsilon.scale" spec="ScaleOperator" parameter="@epsilon" weight="1.0"/>
+    <operator id="delta.scale" spec="ScaleOperator" parameter="@delta" weight="1.0"/>
+    <logger id="Logger" spec="Logger" logEvery="500000">
+      <log idref="posterior"/>
+      <log idref="likelihood"/>
+      <log idref="prior"/>
+      <log idref="pi"/>
+      <log idref="rates"/>
+      <log idref="theta"/>
+    </logger>
+    <logger id="Logger1" spec="Logger" fileName="gt16_epsilon_5_14.log" logEvery="5000">
+      <log idref="posterior"/>
+      <log idref="likelihood"/>
+      <log idref="prior"/>
+      <log idref="pi"/>
+      <log idref="rates"/>
+      <log idref="theta"/>
+      <log id="TreeStatLogger" spec="beast.evolution.tree.TreeStatLogger" tree="@T"/>
+      <log idref="D.treeLikelihood"/>
+      <log idref="delta"/>
+      <log idref="epsilon"/>
+    </logger>
+    <logger id="T.treeLogger" spec="Logger" fileName="gt16_epsilon_5_14.trees" logEvery="5000" mode="tree">
+      <log idref="T"/>
+    </logger>
+  </run>
+</beast>
