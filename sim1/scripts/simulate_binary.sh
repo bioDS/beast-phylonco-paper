@@ -1,5 +1,5 @@
 #!/bin/bash
-# Description: sequence simulation for a fixed tree
+# Description: simulate binary sequences from Yule trees
 # Usage: ./run_simulation.sh
 mkdir -p output/sequences
 mkdir -p output/xml
