@@ -1,9 +1,9 @@
-# Phylonco analysis
-This repository contains data and analysis scripts that accompany the Beast Phylonco paper below.
+# BEAST phylonco paper
+This repository contains data and analysis scripts that accompany the Beast phylonco paper below.
 
 [Paper](https://doi.org/10.1101/2021.03.17.435906): Chen et al. "Accounting for errors in data improves timing in single-cell cancer evolution." (2022)
 
-[Beast Phylonco Software](https://www.github.com/bioDS/beast-phylonco): A BEAST2 package for single-cell phylogenetic analysis of cancer evolution.
+[Beast phylonco software](https://www.github.com/bioDS/beast-phylonco): A BEAST2 package for single-cell phylogenetic analysis of cancer evolution.
 
 ## Software requirements
 Java 8 and [BEAST v2.5](https://github.com/CompEvol/beast2) 
@@ -30,7 +30,9 @@ treeio
 TreeSimGM
 ```
 
-(Optional) Simulating new GT16 datasets additionally requires Java 16, [LPhy](https://github.com/LinguaPhylo/linguaPhylo) and [LPhyBeast](https://github.com/LinguaPhylo/LPhyBeast). 
+(Optional) Simulating new GT16 datasets additionally requires Java 16, [LPhy](https://github.com/LinguaPhylo/linguaPhylo) and [LPhyBeast](https://github.com/LinguaPhylo/LPhyBeast) and [Phylonco-LPhyBeast](https://github.com/bioDS/beast-phylonco/releases/tag/v0.0.6). 
+
+See LPhy setup instructions [here](https://linguaphylo.github.io/setup/).
 
 ## Datasets
 **Simulated datasets:**
