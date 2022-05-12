@@ -124,7 +124,7 @@ def plot_figs(stats_path, true_path, mode):
         plt.title("Tree length HPD (GT16)")
     else:
         z = color_values
-        plt.title("Tree length coverage (GT16 EM)")
+        plt.title("Tree length coverage (GT16)")
     plt.scatter(x=true_deltas, y=true_epsilons, c=z, s=20, alpha=0.5)
     if mode < 2:
         plt.set_cmap("viridis_r")
