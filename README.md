@@ -60,6 +60,8 @@ Run `python3 binary_xml_transformer.py`
 
 **GT16 datasets:**
 
+Setup instructions: https://github.com/bioDS/beast-phylonco/releases/tag/v0.0.6 and https://linguaphylo.github.io/setup/
+
 Run LPhyBeast with arguments `-l <chain length> -r <num repeats> <path to lphy script>`
 
 * chain length: length of the mcmc chain
@@ -70,7 +72,7 @@ Run LPhyBeast with arguments `-l <chain length> -r <num repeats> <path to lphy s
 
 Example command:
 
-`LPhyBeast -l 10000000 -r 10 sim7/scripts/gt16_delta_0.lphy`
+`$BEAST_DIR/bin/lphybeast -l 10000000 -r 10 sim7/scripts/gt16_delta_0.lphy`
 
 ## Running the analysis
 **Running BEAST2:**
