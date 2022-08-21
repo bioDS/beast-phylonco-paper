@@ -1,7 +1,7 @@
 # BEAST phylonco paper
 This repository contains data and analysis scripts that accompany the Beast phylonco paper below.
 
-[Paper](https://doi.org/10.1101/2021.03.17.435906): Chen et al. "Accounting for errors in data improves timing in single-cell cancer evolution." (2022)
+[Paper](https://doi.org/10.1093/molbev/msac143): Chen, K., Moravec, J. C., Gavryushkin, A., Welch, D., & Drummond, A. J. (2022). Accounting for errors in data improves divergence time estimates in single-cell cancer evolution. Molecular biology and evolution, 39(8), msac143.
 
 [Beast phylonco software](https://www.github.com/bioDS/beast-phylonco): A BEAST2 package for single-cell phylogenetic analysis of cancer evolution.
 
@@ -121,7 +121,7 @@ Extra supplementary plots: run `python3 plot_*.py` from the `scripts` sub-direct
 
 * BEAST v2.5: [Bouckaert at al. (2019)](https://doi.org/10.1371/journal.pcbi.1006650)
 
-* BEAST2 Error models: [Chen et al. (2022)](https://doi.org/10.1101/2021.03.17.435906)
+* BEAST2 Error models: [Chen et al. (2022)](https://doi.org/10.1093/molbev/msac143)
 
 * GT16 model: [Kozlov et al. (2022)](https://doi.org/10.1186/s13059-021-02583-w) 
 
@@ -129,4 +129,4 @@ Extra supplementary plots: run `python3 plot_*.py` from the `scripts` sub-direct
 
 * E15 dataset: [Kozlov et al. (2022)](https://doi.org/10.1186/s13059-021-02583-w) and [Evrony et al. (2015)](https://doi.org/10.1016/j.neuron.2014.12.028)
 
-* L86 dataset: [Kozlov et al. (2022)](https://doi.org/10.1186/s13059-021-02583-w) and [Leung et al. (2017)](http://www.genome.org/cgi/doi/10.1101/gr.209973.116.)
+* L86 dataset: [Kozlov et al. (2022)](https://doi.org/10.1186/s13059-021-02583-w) and [Leung et al. (2017)](http://www.genome.org/cgi/doi/10.1101/gr.209973.116)
